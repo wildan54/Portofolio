@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f5f1;
+}
+
+.nav-bar ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 6px 6px -3px rgb(39 44 51 / 10%), 0 10px 14px 1px rgb(39 44 51 / 4%), 0 4px 18px 3px rgb(39 44 51 / 2%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+
+.nav-bar li a.contact {
+  display: block;
+  color: #f2d25b;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+
+.nav-bar li a span {
+  position: relative;
+  bottom: 13px;
+  right: 13px;
+  font-weight: bolder;
+}
+
+li .education,
+.home,
+.portofolio,
+.contact {
+  float: right;
+}
+
+li .contact {
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #f2d25b;
+  height: 20px;
+  width: 100px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.nav-bar .logo {
+  padding: 6px 30px;
+  color: black;
+  font-size: 29px;
+  font-weight: bolder;
+  float: left;
+}
+
+li a:hover:not(.logo, .contact) {
+  background-color: #ececec;
+}
+
+.logo:hover {
+  color: #f2d25b;
+}
+
+.nav-bar li a.contact:hover {
+  background-color: #f2d25b;
+  color: #fff;
+}
+
+.intro .box {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  height: 400px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 30px;
+  display: flexbox;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0 6px 6px -3px rgb(39 44 51 / 10%), 0 10px 14px 1px rgb(39 44 51 / 4%), 0 4px 18px 3px rgb(39 44 51 / 2%);
+}
+
+.text {
+  padding-left: 470px;
+  padding-top: 10px;
+}
+
+.text p {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-right: 40px;
+  text-align: justify;
+}
+.text h2 {
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.box img {
+  position: absolute;
+  left: 30px;
+  bottom: 60px;
+  width: 440px;
+}
+
+#education {
+  position: absolute;
+  left: 10%;
+  top: 120%;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 6px 6px -3px rgb(39 44 51 / 10%), 0 10px 14px 1px rgb(39 44 51 / 4%), 0 4px 18px 3px rgb(39 44 51 / 2%);
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.title h2 {
+  position: absolute;
+  left: 10%;
+  top: 110%;
+}
+
+#education td,
+#education th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#education tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#education tr:hover {
+  background-color: #ddd;
+}
+
+#education th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2d25b;
+  color: white;
+  text-align: center;
+}
+
+div.polaroid {
+  margin-top: 10%;
+  height: 30%;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.portofolio {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+  display: inline-block;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
